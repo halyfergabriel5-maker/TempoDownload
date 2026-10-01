@@ -14,7 +14,7 @@ o valor definitivo de download
 Console.Write($"Tamanho do arquivo(MB): ");
 Arquivo = Convert.ToDouble(Console.ReadLine()!);
 
-Console.Write($"Sua velocidade de Download(Mpbs): ");
+Console.Write($"Sua velocidade de Download(Mbps): ");
 VelocidadeMbps = Convert.ToDouble(Console.ReadLine()); 
 
 tempoDownload = ((Arquivo * 8) / (VelocidadeMbps * 60));
